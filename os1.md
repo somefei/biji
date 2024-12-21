@@ -45,8 +45,8 @@ A system call is a mechanism used by programs to request services from the opera
 2. The child process calls 'exec()' to load and execute the new program.`
 
 - **system programs**
-system programs are nothing but a special software which give us facility to manage and control the computer’s hardware and resources. Helpful in performing essential operation which can’t be handled by application software .它为我们提供了管理和控制计算机硬件和资源的能力。
-Note : The user can only view up-to-the System Programs he cannot see System Calls
+system programs are a special software which give us facility to manage and control the computer’s hardware and resources. Helpful in performing essential operation which can’t be handled by application software .它为我们提供了管理和控制计算机硬件和资源的能力。并有助于执行应用程序软件无法处理的基本操作。
+Note : The user can only view up-to-the System Programs he cannot see System Calls 注 ： 用户只能查看系统程序，而无法查看系统调用。
 ## QUIT	
  1. We have stressed the need for an operating system to make efficient use of the computing hardware. When is it appropriate for the operating system to forsake this principle and to “waste” resources? Why is such a system not really wasteful?
 > Single-user systems should maximize use of the system for the user. A GUI might “waste” CPU cycles, but it optimizes the user’s interaction with the system.
@@ -59,8 +59,8 @@ Note : The user can only view up-to-the System Programs he cannot see System Cal
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IHBpY1xuYXV0aG9yOiBmZW
-lcbiIsImhpc3RvcnkiOlsxMDE5MzgyMDIyLDE3MTA1NDk2OTEs
-LTIwMTEyNzAzODAsLTE1MDE3OTUzODYsLTU0Nzc5ODU0OCw3ND
-IzMzAzMjMsNjg4OTEyNDM0LDIwMDc5NTg4NjMsLTY4Nzc4OTg0
-Miw0MjAzMTEwNzldfQ==
+lcbiIsImhpc3RvcnkiOlszMDQ2OTE3OTYsMTcxMDU0OTY5MSwt
+MjAxMTI3MDM4MCwtMTUwMTc5NTM4NiwtNTQ3Nzk4NTQ4LDc0Mj
+MzMDMyMyw2ODg5MTI0MzQsMjAwNzk1ODg2MywtNjg3Nzg5ODQy
+LDQyMDMxMTA3OV19
 -->
