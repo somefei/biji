@@ -31,6 +31,9 @@ A system call is a mechanism used by programs to request services from the opera
    The purpose of the command **interpreter** is to serve as an interface between the user and the operating system. It allows users to interact with the operating system by accepting user commands and executing them. The command interpreter is usually separate from the kernel for security and flexibility reasons.  
 命令**解释**器的目的是充当用户和操作系统之间的接口。它允许用户通过接受用户命令并执行它们来与操作系统进行交互。出于安全性和灵活性的原因，命令解释器通常与内核分开。
 
+    What is the purpose of the command interpreter? Why is it usually separate from the kernel?
+    It reads commands from the user or a file and executes them, turning them into one or more system calls.
+    For 
 
 ## QUIT	
  1. We have stressed the need for an operating system to make efficient use of the computing hardware. When is it appropriate for the operating system to forsake this principle and to “waste” resources? Why is such a system not really wasteful?
@@ -44,7 +47,8 @@ A system call is a mechanism used by programs to request services from the opera
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IHBpY1xuYXV0aG9yOiBmZW
-lcbiIsImhpc3RvcnkiOlstMjAxMTI3MDM4MCwtMTUwMTc5NTM4
-NiwtNTQ3Nzk4NTQ4LDc0MjMzMDMyMyw2ODg5MTI0MzQsMjAwNz
-k1ODg2MywtNjg3Nzg5ODQyLDQyMDMxMTA3OV19
+lcbiIsImhpc3RvcnkiOlsyMDcyMTA4Nzk2LC0yMDExMjcwMzgw
+LC0xNTAxNzk1Mzg2LC01NDc3OTg1NDgsNzQyMzMwMzIzLDY4OD
+kxMjQzNCwyMDA3OTU4ODYzLC02ODc3ODk4NDIsNDIwMzExMDc5
+XX0=
 -->
