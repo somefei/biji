@@ -28,6 +28,8 @@ A system call is a mechanism used by programs to request services from the opera
     System calls allow user-level processes to request services of the operating system.
     - command interpreter 命令解释器
    A command interpreter allows the user to interact with a program using commands in the form of text lines. 命令解释器允许用户使用文本行形式的命令与程序进行交互。
+   The purpose of the command **interpreter** is to serve as an interface between the user and the operating system. It allows users to interact with the operating system by accepting user commands and executing them. The command interpreter is usually separate from the kernel for security and flexibility reasons.  
+命令**解释**器的目的是充当用户和操作系统之间的接口。它允许用户通过接受用户命令并执行它们来与操作系统进行交互。出于安全性和灵活性的原因，命令解释器通常与内核分开。
 
 
 ## QUIT	
@@ -42,7 +44,7 @@ A system call is a mechanism used by programs to request services from the opera
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IHBpY1xuYXV0aG9yOiBmZW
-lcbiIsImhpc3RvcnkiOlstMTUwMTc5NTM4NiwtNTQ3Nzk4NTQ4
-LDc0MjMzMDMyMyw2ODg5MTI0MzQsMjAwNzk1ODg2MywtNjg3Nz
-g5ODQyLDQyMDMxMTA3OV19
+lcbiIsImhpc3RvcnkiOlstMjAxMTI3MDM4MCwtMTUwMTc5NTM4
+NiwtNTQ3Nzk4NTQ4LDc0MjMzMDMyMyw2ODg5MTI0MzQsMjAwNz
+k1ODg2MywtNjg3Nzg5ODQyLDQyMDMxMTA3OV19
 -->
