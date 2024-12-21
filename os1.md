@@ -26,6 +26,7 @@ A system call is a mechanism used by programs to request services from the opera
 
     What is the purpose of system calls?
     System calls allow user-level processes to request services of the operating system.
+    
 
 
 ## QUIT	
@@ -40,7 +41,7 @@ A system call is a mechanism used by programs to request services from the opera
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IHBpY1xuYXV0aG9yOiBmZW
-lcbiIsImhpc3RvcnkiOlstNTQ3Nzk4NTQ4LDc0MjMzMDMyMyw2
-ODg5MTI0MzQsMjAwNzk1ODg2MywtNjg3Nzg5ODQyLDQyMDMxMT
-A3OV19
+lcbiIsImhpc3RvcnkiOlsxNTA1NTU0MzMwLC01NDc3OTg1NDgs
+NzQyMzMwMzIzLDY4ODkxMjQzNCwyMDA3OTU4ODYzLC02ODc3OD
+k4NDIsNDIwMzExMDc5XX0=
 -->
