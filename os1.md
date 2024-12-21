@@ -44,6 +44,8 @@ A system call is a mechanism used by programs to request services from the opera
 `1. The parent process calls 'fork()' to create a child process.
 2. The child process calls 'exec()' to load and execute the new program.`
 
+- **system programs**
+
 ## QUIT	
  1. We have stressed the need for an operating system to make efficient use of the computing hardware. When is it appropriate for the operating system to forsake this principle and to “waste” resources? Why is such a system not really wasteful?
 > Single-user systems should maximize use of the system for the user. A GUI might “waste” CPU cycles, but it optimizes the user’s interaction with the system.
@@ -56,8 +58,8 @@ A system call is a mechanism used by programs to request services from the opera
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IHBpY1xuYXV0aG9yOiBmZW
-lcbiIsImhpc3RvcnkiOlsxNzEwNTQ5NjkxLC0yMDExMjcwMzgw
-LC0xNTAxNzk1Mzg2LC01NDc3OTg1NDgsNzQyMzMwMzIzLDY4OD
-kxMjQzNCwyMDA3OTU4ODYzLC02ODc3ODk4NDIsNDIwMzExMDc5
-XX0=
+lcbiIsImhpc3RvcnkiOlsyMDQ3MzE4MDU2LDE3MTA1NDk2OTEs
+LTIwMTEyNzAzODAsLTE1MDE3OTUzODYsLTU0Nzc5ODU0OCw3ND
+IzMzAzMjMsNjg4OTEyNDM0LDIwMDc5NTg4NjMsLTY4Nzc4OTg0
+Miw0MjAzMTEwNzldfQ==
 -->
