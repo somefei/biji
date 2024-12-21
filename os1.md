@@ -24,6 +24,10 @@ System call ****provides**** the services of the operating system to the user pr
 A user program can interact with the operating system using a system call.
 A system call is a mechanism used by programs to request services from the operating system (OS).
 
+    What is the purpose of system calls?
+    System calls allow user-level processes to request services of the operating system.
+
+
 ## QUIT	
  1. We have stressed the need for an operating system to make efficient use of the computing hardware. When is it appropriate for the operating system to forsake this principle and to “waste” resources? Why is such a system not really wasteful?
 > Single-user systems should maximize use of the system for the user. A GUI might “waste” CPU cycles, but it optimizes the user’s interaction with the system.
@@ -36,6 +40,7 @@ A system call is a mechanism used by programs to request services from the opera
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IHBpY1xuYXV0aG9yOiBmZW
-lcbiIsImhpc3RvcnkiOls3NDIzMzAzMjMsNjg4OTEyNDM0LDIw
-MDc5NTg4NjMsLTY4Nzc4OTg0Miw0MjAzMTEwNzldfQ==
+lcbiIsImhpc3RvcnkiOlstNTQ3Nzk4NTQ4LDc0MjMzMDMyMyw2
+ODg5MTI0MzQsMjAwNzk1ODg2MywtNjg3Nzg5ODQyLDQyMDMxMT
+A3OV19
 -->
