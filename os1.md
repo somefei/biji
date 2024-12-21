@@ -16,6 +16,9 @@
 
 - **API (Application Programming Interface)** 是应用程序与操作系统或其他软件系统之间的交互接口。
 - **System Call（系统调用）** 是操作系统提供给用户程序的接口，用于在**用户态**（受限制的环境）和**内核态**（拥有全部权限）之间进行交互。
+a way in which a computer program requests a service from the kernel of the operating system.
+>****A system call**** is a programmatic way in which a computer program requests a service from the kernel of the operating system it is executed on. A system call is a way for programs to ****interact with the operating system****. A computer program makes a system call when it requests the operating system’s kernel.  
+****系统调用****是一种编程方式，计算机程序通过这种方式从执行它的操作系统的内核请求服务。系统调用是程序****与操作系统交互****的一种方式。计算机程序在请求操作系统的内核时进行系统调用。
 ## QUIT	
  1. We have stressed the need for an operating system to make efficient use of the computing hardware. When is it appropriate for the operating system to forsake this principle and to “waste” resources? Why is such a system not really wasteful?
 > Single-user systems should maximize use of the system for the user. A GUI might “waste” CPU cycles, but it optimizes the user’s interaction with the system.
@@ -28,6 +31,6 @@
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IHBpY1xuYXV0aG9yOiBmZW
-lcbiIsImhpc3RvcnkiOlstNjg3Nzg5ODQyLDQyMDMxMTA3OV19
-
+lcbiIsImhpc3RvcnkiOlstMzI0NDUwMzQwLC02ODc3ODk4NDIs
+NDIwMzExMDc5XX0=
 -->
