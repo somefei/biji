@@ -45,7 +45,8 @@ A system call is a mechanism used by programs to request services from the opera
 2. The child process calls 'exec()' to load and execute the new program.`
 
 - **system programs**
-
+system programs are nothing but a special software which give us facility to manage and control the computer’s hardware and resources. Helpful in performing essential operation which can’t be handled by application software .
+Note : The user can only view up-to-the System Programs he cannot see System Calls
 ## QUIT	
  1. We have stressed the need for an operating system to make efficient use of the computing hardware. When is it appropriate for the operating system to forsake this principle and to “waste” resources? Why is such a system not really wasteful?
 > Single-user systems should maximize use of the system for the user. A GUI might “waste” CPU cycles, but it optimizes the user’s interaction with the system.
@@ -58,7 +59,7 @@ A system call is a mechanism used by programs to request services from the opera
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IHBpY1xuYXV0aG9yOiBmZW
-lcbiIsImhpc3RvcnkiOlsyMDQ3MzE4MDU2LDE3MTA1NDk2OTEs
+lcbiIsImhpc3RvcnkiOlsyMDI4NTk0NzQ5LDE3MTA1NDk2OTEs
 LTIwMTEyNzAzODAsLTE1MDE3OTUzODYsLTU0Nzc5ODU0OCw3ND
 IzMzAzMjMsNjg4OTEyNDM0LDIwMDc5NTg4NjMsLTY4Nzc4OTg0
 Miw0MjAzMTEwNzldfQ==
