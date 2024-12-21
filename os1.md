@@ -26,7 +26,8 @@ A system call is a mechanism used by programs to request services from the opera
 
     What is the purpose of system calls?
     System calls allow user-level processes to request services of the operating system.
-    
+    - command interpreter 命令解释器
+   A command interpreter allows the user to interact with a program using commands in the form of text lines. 命令解释器允许用户使用文本行形式的命令与程序进行交互。
 
 
 ## QUIT	
@@ -41,7 +42,7 @@ A system call is a mechanism used by programs to request services from the opera
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IHBpY1xuYXV0aG9yOiBmZW
-lcbiIsImhpc3RvcnkiOlsxNTA1NTU0MzMwLC01NDc3OTg1NDgs
-NzQyMzMwMzIzLDY4ODkxMjQzNCwyMDA3OTU4ODYzLC02ODc3OD
-k4NDIsNDIwMzExMDc5XX0=
+lcbiIsImhpc3RvcnkiOlstMTUwMTc5NTM4NiwtNTQ3Nzk4NTQ4
+LDc0MjMzMDMyMyw2ODg5MTI0MzQsMjAwNzk1ODg2MywtNjg3Nz
+g5ODQyLDQyMDMxMTA3OV19
 -->
