@@ -34,6 +34,9 @@ A system call is a mechanism used by programs to request services from the opera
     What is the purpose of the command interpreter? Why is it usually separate from the kernel?
     It reads commands from the user or a file and executes them, turning them into one or more system calls.
     For security and flexibility, and interpreter may/is subject to change.
+- o start a new pro-
+cess, the shell executes a fork() system call. Then, the selected program is
+loaded into memory via an exec() system call, and the program is executed.
 
 ## QUIT	
  1. We have stressed the need for an operating system to make efficient use of the computing hardware. When is it appropriate for the operating system to forsake this principle and to “waste” resources? Why is such a system not really wasteful?
@@ -47,7 +50,7 @@ A system call is a mechanism used by programs to request services from the opera
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IHBpY1xuYXV0aG9yOiBmZW
-lcbiIsImhpc3RvcnkiOlsyMDY4NjU0Nzk0LC0yMDExMjcwMzgw
+lcbiIsImhpc3RvcnkiOlstNjY1MTI3NjgxLC0yMDExMjcwMzgw
 LC0xNTAxNzk1Mzg2LC01NDc3OTg1NDgsNzQyMzMwMzIzLDY4OD
 kxMjQzNCwyMDA3OTU4ODYzLC02ODc3ODk4NDIsNDIwMzExMDc5
 XX0=
