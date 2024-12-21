@@ -22,6 +22,7 @@ a way in which a computer program requests a service from the kernel of the oper
 System call ****provides**** the services of the operating system to the user programs via the Application Program Interface(API). It provides an interface between a process and an operating system to allow user-level processes to request services of the operating system. System calls are the only entry points into the kernel system. All programs needing resources must use system calls.
 系统调用通过应用程序接口 （API） ****向用户程序提供****操作系统的服务。它提供进程和操作系统之间的接口，以允许用户级进程请求操作系统的服务。系统调用是进入内核系统的唯一入口点。
 A user program can interact with the operating system using a system call.
+A system call is a mechanism used by programs to request services from the operating system (OS).
 
 ## QUIT	
  1. We have stressed the need for an operating system to make efficient use of the computing hardware. When is it appropriate for the operating system to forsake this principle and to “waste” resources? Why is such a system not really wasteful?
@@ -35,6 +36,6 @@ A user program can interact with the operating system using a system call.
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IHBpY1xuYXV0aG9yOiBmZW
-lcbiIsImhpc3RvcnkiOls2ODg5MTI0MzQsMjAwNzk1ODg2Mywt
-Njg3Nzg5ODQyLDQyMDMxMTA3OV19
+lcbiIsImhpc3RvcnkiOls3NDIzMzAzMjMsNjg4OTEyNDM0LDIw
+MDc5NTg4NjMsLTY4Nzc4OTg0Miw0MjAzMTEwNzldfQ==
 -->
