@@ -41,6 +41,8 @@ A system call is a mechanism used by programs to request services from the opera
 2.  子进程调用 `exec()` 来加载并执行新的程序。
 
 ` What system calls have to be executed by a command interpreter or shell in order to start a new process on a UNIX system? `
+`1. The parent process calls 'fork()' to create a child process.
+2. The child process calls 'exec()' to load and execute the new program.`
 
 ## QUIT	
  1. We have stressed the need for an operating system to make efficient use of the computing hardware. When is it appropriate for the operating system to forsake this principle and to “waste” resources? Why is such a system not really wasteful?
@@ -54,8 +56,8 @@ A system call is a mechanism used by programs to request services from the opera
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IHBpY1xuYXV0aG9yOiBmZW
-lcbiIsImhpc3RvcnkiOlstMTIzODU1MDg1NCwtMjAxMTI3MDM4
-MCwtMTUwMTc5NTM4NiwtNTQ3Nzk4NTQ4LDc0MjMzMDMyMyw2OD
-g5MTI0MzQsMjAwNzk1ODg2MywtNjg3Nzg5ODQyLDQyMDMxMTA3
-OV19
+lcbiIsImhpc3RvcnkiOlsxNzEwNTQ5NjkxLC0yMDExMjcwMzgw
+LC0xNTAxNzk1Mzg2LC01NDc3OTg1NDgsNzQyMzMwMzIzLDY4OD
+kxMjQzNCwyMDA3OTU4ODYzLC02ODc3ODk4NDIsNDIwMzExMDc5
+XX0=
 -->
