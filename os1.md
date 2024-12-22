@@ -1,7 +1,7 @@
 
 
 ## introduction
-§Operating systems provide an environment for execution of programs and services to programs and users
+Operating systems provide an environment for execution of programs and services to programs and users
 > programs: 进程
 > allocate resources to programs 分配资源给进程
  - Computer system :  hardware,  operating system,  application programs,  user
@@ -72,13 +72,13 @@ Layered Structure is a type of system structure in which the different services 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IHBpY1xuYXV0aG9yOiBmZW
 lcbiIsImRpc2N1c3Npb25zIjp7IjFDOFAxTWFuekFvSkZVTjki
-Onsic3RhcnQiOjI4NjAsImVuZCI6Mjk1MSwidGV4dCI6IldoYX
+Onsic3RhcnQiOjI4NTksImVuZCI6Mjk1MCwidGV4dCI6IldoYX
 QgaXMgdGhlIHB1cnBvc2Ugb2YgdGhlIGNvbW1hbmQgaW50ZXJw
 cmV0ZXI/IFdoeSBpcyBpdCB1c3VhbGx5IHNlcGFyYXRlIGZyb2
 3igKYifSwiWDljSnBUOWRJTFYxcXZUYyI6eyJzdGFydCI6Mzg4
-NCwiZW5kIjozOTI5LCJ0ZXh0IjoiYFdoYXQgaXMgdGhlIHByb3
+MywiZW5kIjozOTI4LCJ0ZXh0IjoiYFdoYXQgaXMgdGhlIHByb3
 Bvc2Ugb2YgdGhlIHN5c3RlbSBwcm9ncmFtcz9gIn0sImhpYUU0
-ZVdTTW9hUUpqM0wiOnsic3RhcnQiOjQ3MzYsImVuZCI6NDg1Ni
+ZVdTTW9hUUpqM0wiOnsic3RhcnQiOjQ3MzUsImVuZCI6NDg1NS
 widGV4dCI6IldoYXQgaXMgdGhlIG1haW4gYWR2YW50YWdlIG9m
 IHRoZSBsYXllcmVkIGFwcHJvYWNoIHRvIHN5c3RlbSBkZXNpZ2
 4/IFdoYXQgYXJlIHTigKYifX0sImNvbW1lbnRzIjp7Im5sMzd3
@@ -116,9 +116,10 @@ MTMwNTUxMzgyOTk4OTAwNyIsInRleHQiOiJpdCBzZW5kcyBhIH
 JlcXVlc3QgdGhhdCBoYXMgdG8gdHJhdmVsIHRocm91Z2ggYWxs
 IHRoZSBsYXllcnMgcHJlc2VudCBpbiBiZXR3ZWVuIHRoZSB0d2
 8gaW50ZXJhY3RpbmcgbGF5ZXJzLiIsImNyZWF0ZWQiOjE3MzQ4
-NTAxOTIzNDB9fSwiaGlzdG9yeSI6WzE5NDYyNjQzMDQsLTE4Nz
-UzNjIwNiw5NjQ2NTM1NDAsLTE3NzQ2NTAxODgsLTE0MzA3Nzkz
-MCwxNzEwNTQ5NjkxLC0yMDExMjcwMzgwLC0xNTAxNzk1Mzg2LC
-01NDc3OTg1NDgsNzQyMzMwMzIzLDY4ODkxMjQzNCwyMDA3OTU4
-ODYzLC02ODc3ODk4NDIsNDIwMzExMDc5XX0=
+NTAxOTIzNDB9fSwiaGlzdG9yeSI6WzE3OTc0NTAwMTYsMTk0Nj
+I2NDMwNCwtMTg3NTM2MjA2LDk2NDY1MzU0MCwtMTc3NDY1MDE4
+OCwtMTQzMDc3OTMwLDE3MTA1NDk2OTEsLTIwMTEyNzAzODAsLT
+E1MDE3OTUzODYsLTU0Nzc5ODU0OCw3NDIzMzAzMjMsNjg4OTEy
+NDM0LDIwMDc5NTg4NjMsLTY4Nzc4OTg0Miw0MjAzMTEwNzldfQ
+==
 -->
