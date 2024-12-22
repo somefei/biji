@@ -50,7 +50,13 @@ Note : The user can only view up-to-the System Programs he cannot see System Cal
 
 - **Layered Structure**  分层结构
 Layered Structure is a type of system structure in which the different services of the operating systemare split into various layers, where each layer has a specific well-defined task to perform.分层结构是一种系统结构，其中[操作系统](https://www.geeksforgeeks.org/operating-systems/)的不同服务被分成不同的层，其中每一层都有一个特定的明确定义的任务要执行。
-
+层的实现有一些规则，如下所示：
+1.  The outermost layer must be the User Interface layer.  
+    最外层必须是 User Interface 层。
+2.  The innermost layer must be the Hardware layer.  
+    最内层必须是 Hardware 层。
+3.  A particular layer can access all the layers present below it but it cannot access the layers present above it. That is layer n-1 can access all the layers from n-2 to 0 but it cannot access the nth layer.  
+    特定层可以访问其下方的所有层，但无法访问其上方的层。也就是说，第 n-1 层可以访问从 n-2 到 0 的所有层，但它无法访问第 n 层。
 
 ## QUIT	
  1. We have stressed the need for an operating system to make efficient use of the computing hardware. When is it appropriate for the operating system to forsake this principle and to “waste” resources? Why is such a system not really wasteful?
@@ -92,7 +98,7 @@ O757uf6LCD55So55qE6ZuG5ZCI44CC5a6D5Lus5Li655So5oi3
 5o+Q5L6b5Z+65pys5Yqf6IO977yM5L2/55So5oi35peg6ZyA57
 yW5YaZ6Ieq5bex55qE56iL5bqP5p2l6Kej5Yaz5bi46KeB6Zeu
 6aKY44CCIiwiY3JlYXRlZCI6MTczNDg0ODY3NjMwOH19LCJoaX
-N0b3J5IjpbLTE3NTU4MTI5OTksLTE0MzA3NzkzMCwxNzEwNTQ5
+N0b3J5IjpbLTE3NzQ2NTAxODgsLTE0MzA3NzkzMCwxNzEwNTQ5
 NjkxLC0yMDExMjcwMzgwLC0xNTAxNzk1Mzg2LC01NDc3OTg1ND
 gsNzQyMzMwMzIzLDY4ODkxMjQzNCwyMDA3OTU4ODYzLC02ODc3
 ODk4NDIsNDIwMzExMDc5XX0=
