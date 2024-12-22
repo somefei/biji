@@ -1,13 +1,16 @@
 
 
 ## introduction
+An operating system is software that acts as an intermediary between the user and computer hardware.
 Operating systems provide an environment for execution of programs and services to programs and users
+
 > programs: 进程
 > allocate resources to programs 分配资源给进程
  - Computer system :  hardware,  operating system,  application programs,  user
  - Interrupts
  - Real-Time Embedded Systems
-> 
+
+`List five services provided by an operating system, and explain how each creates convenience for users. In which cases would it be impossible for user-level programs to provide these services? Explain your answer`
 > 
  - [ ] **嵌入式系统**是专门为某一特定功能设计的计算机系统，它通常嵌入在一个更大的设备中，例如  微波炉中的控制系统  汽车中的防抱死制动系统（ABS）
  - [ ] **实时系统**是指必须在规定的时间内完成某些任务的系统。
@@ -72,13 +75,13 @@ Layered Structure is a type of system structure in which the different services 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IHBpY1xuYXV0aG9yOiBmZW
 lcbiIsImRpc2N1c3Npb25zIjp7IjFDOFAxTWFuekFvSkZVTjki
-Onsic3RhcnQiOjI4NTksImVuZCI6Mjk1MCwidGV4dCI6IldoYX
+Onsic3RhcnQiOjMxNzQsImVuZCI6MzI2NSwidGV4dCI6IldoYX
 QgaXMgdGhlIHB1cnBvc2Ugb2YgdGhlIGNvbW1hbmQgaW50ZXJw
 cmV0ZXI/IFdoeSBpcyBpdCB1c3VhbGx5IHNlcGFyYXRlIGZyb2
-3igKYifSwiWDljSnBUOWRJTFYxcXZUYyI6eyJzdGFydCI6Mzg4
-MywiZW5kIjozOTI4LCJ0ZXh0IjoiYFdoYXQgaXMgdGhlIHByb3
+3igKYifSwiWDljSnBUOWRJTFYxcXZUYyI6eyJzdGFydCI6NDE5
+OCwiZW5kIjo0MjQzLCJ0ZXh0IjoiYFdoYXQgaXMgdGhlIHByb3
 Bvc2Ugb2YgdGhlIHN5c3RlbSBwcm9ncmFtcz9gIn0sImhpYUU0
-ZVdTTW9hUUpqM0wiOnsic3RhcnQiOjQ3MzUsImVuZCI6NDg1NS
+ZVdTTW9hUUpqM0wiOnsic3RhcnQiOjUwNTAsImVuZCI6NTE3MC
 widGV4dCI6IldoYXQgaXMgdGhlIG1haW4gYWR2YW50YWdlIG9m
 IHRoZSBsYXllcmVkIGFwcHJvYWNoIHRvIHN5c3RlbSBkZXNpZ2
 4/IFdoYXQgYXJlIHTigKYifX0sImNvbW1lbnRzIjp7Im5sMzd3
@@ -116,10 +119,10 @@ MTMwNTUxMzgyOTk4OTAwNyIsInRleHQiOiJpdCBzZW5kcyBhIH
 JlcXVlc3QgdGhhdCBoYXMgdG8gdHJhdmVsIHRocm91Z2ggYWxs
 IHRoZSBsYXllcnMgcHJlc2VudCBpbiBiZXR3ZWVuIHRoZSB0d2
 8gaW50ZXJhY3RpbmcgbGF5ZXJzLiIsImNyZWF0ZWQiOjE3MzQ4
-NTAxOTIzNDB9fSwiaGlzdG9yeSI6WzE3OTc0NTAwMTYsMTk0Nj
-I2NDMwNCwtMTg3NTM2MjA2LDk2NDY1MzU0MCwtMTc3NDY1MDE4
-OCwtMTQzMDc3OTMwLDE3MTA1NDk2OTEsLTIwMTEyNzAzODAsLT
-E1MDE3OTUzODYsLTU0Nzc5ODU0OCw3NDIzMzAzMjMsNjg4OTEy
-NDM0LDIwMDc5NTg4NjMsLTY4Nzc4OTg0Miw0MjAzMTEwNzldfQ
-==
+NTAxOTIzNDB9fSwiaGlzdG9yeSI6Wy0xNTMwMTQ1Njk0LDE5ND
+YyNjQzMDQsLTE4NzUzNjIwNiw5NjQ2NTM1NDAsLTE3NzQ2NTAx
+ODgsLTE0MzA3NzkzMCwxNzEwNTQ5NjkxLC0yMDExMjcwMzgwLC
+0xNTAxNzk1Mzg2LC01NDc3OTg1NDgsNzQyMzMwMzIzLDY4ODkx
+MjQzNCwyMDA3OTU4ODYzLC02ODc3ODk4NDIsNDIwMzExMDc5XX
+0=
 -->
