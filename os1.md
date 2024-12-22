@@ -48,8 +48,13 @@ A system call is a mechanism used by programs to request services from the opera
 system programs are a special software which give us facility to manage and control the computer’s hardware and resources. Helpful in performing essential operation which can’t be handled by application software .它为我们提供了管理和控制计算机硬件和资源的能力。并有助于执行应用程序软件无法处理的基本操作。
 Note : The user can only view up-to-the System Programs he cannot see System Calls 注 ： 用户只能查看系统程序，而无法查看系统调用。
 
-    enter## What is the purpose of system programs?
-     code here
+    enter code here
+
+   
+
+     What is the purpose of system programs?
+        System programs can be thought of as bundles of useful system calls. They provide basic functionality to users so that users do not need to write their own programs to solve common problems.
+     cWhat is the purpose of system programs?ode here
 
 ## QUIT	
  1. We have stressed the need for an operating system to make efficient use of the computing hardware. When is it appropriate for the operating system to forsake this principle and to “waste” resources? Why is such a system not really wasteful?
@@ -63,8 +68,16 @@ Note : The user can only view up-to-the System Programs he cannot see System Cal
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IHBpY1xuYXV0aG9yOiBmZW
-lcbiIsImhpc3RvcnkiOls3NTEzMjg0ODQsMTcxMDU0OTY5MSwt
-MjAxMTI3MDM4MCwtMTUwMTc5NTM4NiwtNTQ3Nzk4NTQ4LDc0Mj
-MzMDMyMyw2ODg5MTI0MzQsMjAwNzk1ODg2MywtNjg3Nzg5ODQy
-LDQyMDMxMTA3OV19
+lcbiIsImRpc2N1c3Npb25zIjp7InFMRnNpODh4NXR2aFpIUVgi
+Onsic3RhcnQiOjI4NjAsImVuZCI6MzEzNiwidGV4dCI6IldoYX
+QgaXMgdGhlIHB1cnBvc2Ugb2YgdGhlIGNvbW1hbmQgaW50ZXJw
+cmV0ZXI/IFdoeSBpcyBpdCB1c3VhbGx5IHNlcGFyYXRlIGZyb2
+3igKYifX0sImNvbW1lbnRzIjp7InF6Zk9iamJOVDl0TlczVmki
+OnsiZGlzY3Vzc2lvbklkIjoicUxGc2k4OHg1dHZoWkhRWCIsIn
+N1YiI6ImdvOjEwNTI5MTMwNTUxMzgyOTk4OTAwNyIsInRleHQi
+OiJob3ciLCJjcmVhdGVkIjoxNzM0ODQ4NTI2NzQ4fX0sImhpc3
+RvcnkiOlsxNjM5MDEwNDk4LDE3MTA1NDk2OTEsLTIwMTEyNzAz
+ODAsLTE1MDE3OTUzODYsLTU0Nzc5ODU0OCw3NDIzMzAzMjMsNj
+g4OTEyNDM0LDIwMDc5NTg4NjMsLTY4Nzc4OTg0Miw0MjAzMTEw
+NzldfQ==
 -->
