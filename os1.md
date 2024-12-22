@@ -32,8 +32,6 @@ A system call is a mechanism used by programs to request services from the opera
 命令**解释**器的目的是充当用户和操作系统之间的接口。它允许用户通过接受用户命令并执行它们来与操作系统进行交互。出于安全性和灵活性的原因，命令解释器通常与内核分开。
 
     What is the purpose of the command interpreter? Why is it usually separate from the kernel?
-    It reads commands from the user or a file and executes them, turning them into one or more system calls.
-    For security and flexibility, and interpreter may/is subject to change.
 - To start a new process, the shell executes a fork() system call. Then, the selected program is loaded into memory via an exec() system call, and the program is executed.
 通常，`fork()` 和 `exec()` 是配合使用的。典型的操作流程是：
 
@@ -48,13 +46,7 @@ A system call is a mechanism used by programs to request services from the opera
 system programs are a special software which give us facility to manage and control the computer’s hardware and resources. Helpful in performing essential operation which can’t be handled by application software .它为我们提供了管理和控制计算机硬件和资源的能力。并有助于执行应用程序软件无法处理的基本操作。
 Note : The user can only view up-to-the System Programs he cannot see System Calls 注 ： 用户只能查看系统程序，而无法查看系统调用。
 
-    enter code here
-
-   
-
-     What is the purpose of system programs?
-        System programs can be thought of as bundles of useful system calls. They provide basic functionality to users so that users do not need to write their own programs to solve common problems.
-     cWhat is the purpose of system programs?ode here
+ `What is the propose of the system programs?enter code here`
 
 ## QUIT	
  1. We have stressed the need for an operating system to make efficient use of the computing hardware. When is it appropriate for the operating system to forsake this principle and to “waste” resources? Why is such a system not really wasteful?
@@ -68,16 +60,20 @@ Note : The user can only view up-to-the System Programs he cannot see System Cal
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IHBpY1xuYXV0aG9yOiBmZW
-lcbiIsImRpc2N1c3Npb25zIjp7InFMRnNpODh4NXR2aFpIUVgi
-Onsic3RhcnQiOjI4NjAsImVuZCI6MzEzNiwidGV4dCI6IldoYX
+lcbiIsImRpc2N1c3Npb25zIjp7IjFDOFAxTWFuekFvSkZVTjki
+Onsic3RhcnQiOjI4NjAsImVuZCI6Mjk1MSwidGV4dCI6IldoYX
 QgaXMgdGhlIHB1cnBvc2Ugb2YgdGhlIGNvbW1hbmQgaW50ZXJw
 cmV0ZXI/IFdoeSBpcyBpdCB1c3VhbGx5IHNlcGFyYXRlIGZyb2
-3igKYifX0sImNvbW1lbnRzIjp7InF6Zk9iamJOVDl0TlczVmki
-OnsiZGlzY3Vzc2lvbklkIjoicUxGc2k4OHg1dHZoWkhRWCIsIn
+3igKYifX0sImNvbW1lbnRzIjp7Im5sMzd3ZjhSR1NmVlUwejki
+OnsiZGlzY3Vzc2lvbklkIjoiMUM4UDFNYW56QW9KRlVOOSIsIn
 N1YiI6ImdvOjEwNTI5MTMwNTUxMzgyOTk4OTAwNyIsInRleHQi
-OiJob3ciLCJjcmVhdGVkIjoxNzM0ODQ4NTI2NzQ4fX0sImhpc3
-RvcnkiOlsxNjM5MDEwNDk4LDE3MTA1NDk2OTEsLTIwMTEyNzAz
-ODAsLTE1MDE3OTUzODYsLTU0Nzc5ODU0OCw3NDIzMzAzMjMsNj
-g4OTEyNDM0LDIwMDc5NTg4NjMsLTY4Nzc4OTg0Miw0MjAzMTEw
-NzldfQ==
+OiJJdCByZWFkcyBjb21tYW5kcyBmcm9tIHRoZSB1c2VyIG9yIG
+EgZmlsZSBhbmQgZXhlY3V0ZXMgdGhlbSwgdHVybmluZyB0aGVt
+IGludG8gb25lIG9yIG1vcmUgc3lzdGVtIGNhbGxzLlxuICAgIE
+ZvciBzZWN1cml0eSBhbmQgZmxleGliaWxpdHksIGFuZCBpbnRl
+cnByZXRlciBtYXkvaXMgc3ViamVjdCB0byBjaGFuZ2UuIiwiY3
+JlYXRlZCI6MTczNDg0ODU2MzkxNX19LCJoaXN0b3J5IjpbLTIx
+MTE4MDg1NCwxNzEwNTQ5NjkxLC0yMDExMjcwMzgwLC0xNTAxNz
+k1Mzg2LC01NDc3OTg1NDgsNzQyMzMwMzIzLDY4ODkxMjQzNCwy
+MDA3OTU4ODYzLC02ODc3ODk4NDIsNDIwMzExMDc5XX0=
 -->
