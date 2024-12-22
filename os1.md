@@ -48,6 +48,9 @@ Note : The user can only view up-to-the System Programs he cannot see System Cal
 
  `What is the propose of the system programs?`
 
+- **Layered Structure**  分层结构
+
+
 ## QUIT	
  1. We have stressed the need for an operating system to make efficient use of the computing hardware. When is it appropriate for the operating system to forsake this principle and to “waste” resources? Why is such a system not really wasteful?
 > Single-user systems should maximize use of the system for the user. A GUI might “waste” CPU cycles, but it optimizes the user’s interaction with the system.
@@ -88,8 +91,8 @@ O757uf6LCD55So55qE6ZuG5ZCI44CC5a6D5Lus5Li655So5oi3
 5o+Q5L6b5Z+65pys5Yqf6IO977yM5L2/55So5oi35peg6ZyA57
 yW5YaZ6Ieq5bex55qE56iL5bqP5p2l6Kej5Yaz5bi46KeB6Zeu
 6aKY44CCIiwiY3JlYXRlZCI6MTczNDg0ODY3NjMwOH19LCJoaX
-N0b3J5IjpbLTE0MzA3NzkzMCwxNzEwNTQ5NjkxLC0yMDExMjcw
-MzgwLC0xNTAxNzk1Mzg2LC01NDc3OTg1NDgsNzQyMzMwMzIzLD
-Y4ODkxMjQzNCwyMDA3OTU4ODYzLC02ODc3ODk4NDIsNDIwMzEx
-MDc5XX0=
+N0b3J5IjpbMTUxNDY2Nzg1MSwtMTQzMDc3OTMwLDE3MTA1NDk2
+OTEsLTIwMTEyNzAzODAsLTE1MDE3OTUzODYsLTU0Nzc5ODU0OC
+w3NDIzMzAzMjMsNjg4OTEyNDM0LDIwMDc5NTg4NjMsLTY4Nzc4
+OTg0Miw0MjAzMTEwNzldfQ==
 -->
