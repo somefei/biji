@@ -49,6 +49,7 @@ Note : The user can only view up-to-the System Programs he cannot see System Cal
  `What is the propose of the system programs?`
 
 - **Layered Structure**  分层结构
+Layered Structure is a type of system structure in which the different services of the operating systemare split into various layers, where each layer has a specific well-defined task to perform.分层结构是一种系统结构，其中[操作系统](https://www.geeksforgeeks.org/operating-systems/)的不同服务被分成不同的层，其中每一层都有一个特定的明确定义的任务要执行。
 
 
 ## QUIT	
@@ -91,8 +92,8 @@ O757uf6LCD55So55qE6ZuG5ZCI44CC5a6D5Lus5Li655So5oi3
 5o+Q5L6b5Z+65pys5Yqf6IO977yM5L2/55So5oi35peg6ZyA57
 yW5YaZ6Ieq5bex55qE56iL5bqP5p2l6Kej5Yaz5bi46KeB6Zeu
 6aKY44CCIiwiY3JlYXRlZCI6MTczNDg0ODY3NjMwOH19LCJoaX
-N0b3J5IjpbMTUxNDY2Nzg1MSwtMTQzMDc3OTMwLDE3MTA1NDk2
-OTEsLTIwMTEyNzAzODAsLTE1MDE3OTUzODYsLTU0Nzc5ODU0OC
-w3NDIzMzAzMjMsNjg4OTEyNDM0LDIwMDc5NTg4NjMsLTY4Nzc4
-OTg0Miw0MjAzMTEwNzldfQ==
+N0b3J5IjpbLTE3NTU4MTI5OTksLTE0MzA3NzkzMCwxNzEwNTQ5
+NjkxLC0yMDExMjcwMzgwLC0xNTAxNzk1Mzg2LC01NDc3OTg1ND
+gsNzQyMzMwMzIzLDY4ODkxMjQzNCwyMDA3OTU4ODYzLC02ODc3
+ODk4NDIsNDIwMzExMDc5XX0=
 -->
