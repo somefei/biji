@@ -16,6 +16,7 @@ Operating systems provide an environment for execution of programs and services 
  - [ ] **实时系统**是指必须在规定的时间内完成某些任务的系统。
  - The basic unit of computer storage is the bit, which contain one 0 or 1, and a **byte** is 8 bits; a **kilobyte** or **KB** is 1024 bytes; a **megabyte (MB)** is 1024*1024 bytes; a **gigabyte (GB)** is 1024^3 bytes; a **terabyte (TB)** is 1024^4 bytes.
  - An operating system is software that manages the computer hardware, as well as providing an environment for application programs to run.
+  `Why do some systems store the operating system in firmware, while others store it on disk?`
 
 - **API (Application Programming Interface)** 是应用程序与操作系统或其他软件系统之间的交互接口。
 - **System Call（系统调用）** 是操作系统提供给用户程序的接口，用于在**用户态**（受限制的环境）和**内核态**（拥有全部权限）之间进行交互。
@@ -70,18 +71,20 @@ Layered Structure is a type of system structure in which the different services 
  2. What is the main difficulty that a programmer must overcome in writing an operating system for a real-time environment?
  >The main difculty is keeping the operating system within the fixed time constraints of a real-time system. If the system does not complete a task in a certain time frame, it may cause a breakdown of the entire system.
 
+- bootstrap program
+
 
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IHBpY1xuYXV0aG9yOiBmZW
 lcbiIsImRpc2N1c3Npb25zIjp7IjFDOFAxTWFuekFvSkZVTjki
-Onsic3RhcnQiOjMxNzQsImVuZCI6MzI2NSwidGV4dCI6IldoYX
+Onsic3RhcnQiOjMyNjksImVuZCI6MzM2MCwidGV4dCI6IldoYX
 QgaXMgdGhlIHB1cnBvc2Ugb2YgdGhlIGNvbW1hbmQgaW50ZXJw
 cmV0ZXI/IFdoeSBpcyBpdCB1c3VhbGx5IHNlcGFyYXRlIGZyb2
-3igKYifSwiWDljSnBUOWRJTFYxcXZUYyI6eyJzdGFydCI6NDE5
-OCwiZW5kIjo0MjQzLCJ0ZXh0IjoiYFdoYXQgaXMgdGhlIHByb3
+3igKYifSwiWDljSnBUOWRJTFYxcXZUYyI6eyJzdGFydCI6NDI5
+MywiZW5kIjo0MzM4LCJ0ZXh0IjoiYFdoYXQgaXMgdGhlIHByb3
 Bvc2Ugb2YgdGhlIHN5c3RlbSBwcm9ncmFtcz9gIn0sImhpYUU0
-ZVdTTW9hUUpqM0wiOnsic3RhcnQiOjUwNTAsImVuZCI6NTE3MC
+ZVdTTW9hUUpqM0wiOnsic3RhcnQiOjUxNDUsImVuZCI6NTI2NS
 widGV4dCI6IldoYXQgaXMgdGhlIG1haW4gYWR2YW50YWdlIG9m
 IHRoZSBsYXllcmVkIGFwcHJvYWNoIHRvIHN5c3RlbSBkZXNpZ2
 4/IFdoYXQgYXJlIHTigKYifSwiQnlpbE5KUmswaGc2aGlVaiI6
@@ -151,9 +154,9 @@ sIPkvb/nlKjjgILplJnor6/mo4DmtYvnlLHmk43kvZzns7vnu5
 /nu5/kuIDlpITnkIbvvIzkv53miqTmlbDmja7lrozmlbTmgKfl
 ubblh4/lsJHnlKjmiLfnqIvluo/nmoTlpI3mnYLmgKfjgIIiLC
 JjcmVhdGVkIjoxNzM0ODUyNTQ3NzI1fX0sImhpc3RvcnkiOlst
-MTMxMzQ3OTg4MywxOTQ2MjY0MzA0LC0xODc1MzYyMDYsOTY0Nj
-UzNTQwLC0xNzc0NjUwMTg4LC0xNDMwNzc5MzAsMTcxMDU0OTY5
-MSwtMjAxMTI3MDM4MCwtMTUwMTc5NTM4NiwtNTQ3Nzk4NTQ4LD
-c0MjMzMDMyMyw2ODg5MTI0MzQsMjAwNzk1ODg2MywtNjg3Nzg5
-ODQyLDQyMDMxMTA3OV19
+MTE5NTg2OTc5MiwtMTMxMzQ3OTg4MywxOTQ2MjY0MzA0LC0xOD
+c1MzYyMDYsOTY0NjUzNTQwLC0xNzc0NjUwMTg4LC0xNDMwNzc5
+MzAsMTcxMDU0OTY5MSwtMjAxMTI3MDM4MCwtMTUwMTc5NTM4Ni
+wtNTQ3Nzk4NTQ4LDc0MjMzMDMyMyw2ODg5MTI0MzQsMjAwNzk1
+ODg2MywtNjg3Nzg5ODQyLDQyMDMxMTA3OV19
 -->
