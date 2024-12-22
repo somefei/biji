@@ -74,6 +74,7 @@ Layered Structure is a type of system structure in which the different services 
 - **bootstrap program**引导程序
 A bootstrap program is the first code that is executed when the computer system is started. The entire operating system depends on the bootstrap program to work correctly as it loads the operating system.  
 引导程序是计算机系统启动时执行的第一个代码。整个操作系统依赖于引导程序在加载操作系统时正常工作。
+`## How could a system be designed to allow a choice of operating systems from which to boot? What would the bootstrap program need to do?`
 
 
 
@@ -167,7 +168,7 @@ cnRhaW4gZGV2aWNlcywgc3VjaCBhcyBlbWJlZGRlZCBzeXN0ZW
 b3QgYmUgYXZhaWxhYmxlIGZvciB0aGUgZGV2aWNlLiBJbiB0aG
 lzIHNpdHVhdGlvbiwgdGhlIG9wZXJhdGluZyBzeXN0ZW0gbXVz
 dCBiZSBzdG9yZWQgaW4gZmlybXdhcmUuIiwiY3JlYXRlZCI6MT
-czNDg1MzA1OTEyNH19LCJoaXN0b3J5IjpbOTcyMTEyMDUwLC0x
+czNDg1MzA1OTEyNH19LCJoaXN0b3J5IjpbNDk1MjU5OTIzLC0x
 MzEzNDc5ODgzLDE5NDYyNjQzMDQsLTE4NzUzNjIwNiw5NjQ2NT
 M1NDAsLTE3NzQ2NTAxODgsLTE0MzA3NzkzMCwxNzEwNTQ5Njkx
 LC0yMDExMjcwMzgwLC0xNTAxNzk1Mzg2LC01NDc3OTg1NDgsNz
